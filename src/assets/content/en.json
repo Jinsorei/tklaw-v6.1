@@ -1,0 +1,67 @@
+{
+  "businessInfo": {
+    "name": "TK & Associates",
+    "hotline": "+84 2 222 1697",
+    "registeredName": "VĂN PHÒNG LUẬT SƯ TK & LIÊN DANH"
+  }, 
+  "menu": {
+    "about": "About",
+    "practices": "Practices",
+    "blog": "Blog",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "footer": {
+    "usefulLinks": "Useful links",
+    "legal": "Legal",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "faqs": "FAQs",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "contactInfo": "1st Floor, Rosana Building, 60 Nguyen Dinh Chieu, Da Kao, Dist. 1, HCMC",
+    "privacyPolicy": "Privacy policy",
+    "cookiePolicy": "Cookie policy",
+    "termsOfUse": "Terms of use",
+    "phone": "Phone",
+    "phoneNum": "+84 2 222 1697",
+    "faxNum": "+84 8 222 02201",
+    "email": "khuongdinhtien@gmail.com"
+  },
+  "attorneysSection": {
+    "heading": "Our attorneys",
+    "description": "Our experienced legal team is dedicated to providing comprehensive and tailored legal advice and representation to our clients. We specialize in various areas of law. With a deep understanding of the legal landscape and a commitment to excellence, we strive to achieve the best possible outcomes for our clients.",
+    "buttonText": "Read more",
+    "attorneys": [
+      {
+        "name": "Nguyen Van A",
+        "title": "Senior Attorney",
+        "image": "attorney01.png"
+      },
+      {
+        "name": "Khương Đình Tiến",
+        "title": "Lead Attorney",
+        "image": "attorney02.png"
+      },
+      {
+        "name": "Tran Thi B",
+        "title": "Lead Attorney",
+        "image": "attorney03.png"
+      }
+    ]
+  },
+  "CTASection": {
+    "heading": "Need Expert Legal Guidance?",
+    "description": "Our dedicated team of attorneys is here to provide personalized legal solutions tailored to your needs. Whether you're facing a legal challenge or seeking advice, we’re just a call away!",
+    "buttonText": "Call Now for a Free Consultation!",
+    "subText": "Don’t wait—take the first step towards resolving your legal issues today!"
+  },
+  "hero": {
+    "title": "20 years of experience protecting your legal rights",
+    "subtitle": "The law firm is under the direction and management of Attorney Khương Đình Tiến, the Managing Partner. With a skilled team of legal practitioners, we specialize in litigation, legal advice, and other legal services as permitted by law."
+  },
+  "cta": {
+    "buttonText": "Get Free Consultation",
+    "buttonLink": "https://google.com"
+  }
+}

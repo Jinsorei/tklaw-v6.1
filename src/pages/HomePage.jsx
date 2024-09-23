@@ -3,6 +3,7 @@ import useContentful from '../useContentful';
 import HeroSection from '../components/HeroSection';
 import Practices from '../components/Practices';
 import Attorneys from '../components/Attorneys';
+import CTASection from '../components/CTASection'
 
 function HomePage() {
   const { data, loading, error } = useContentful([
@@ -25,6 +26,7 @@ function HomePage() {
       />
       <Practices />
       <Attorneys />
+      <CTASection />
     </div>
   );
 }
