@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f0f0f0; /* Softer white/gray */
+  color: #1c1c1c; /* Dark gray for better readability */
+  font-family: 'Be Vietnam Pro', 'sans-serif';
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Be Vietnam Pro', 'sans-serif';
+  color: #1a1a1a; /* Slightly darker color for headings */
+}
+
+/* Custom styles */
+.bg-opacity-transition {
+  transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Consistent styles for other components */
+.text-muted {
+  color: #7f7f7f; /* Use for less prominent text */
+}
+
+.bg-primary {
+  background-color: #1a1a1a; /* Darker black background */
+}
+
+.text-accent {
+  color: #2f2f2f; /* Accent text color */
+}
+
+.border-accent {
+  border-color: #2f2f2f;
+}
