@@ -1,24 +1,27 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import practice01 from '../assets/practice01.webp';
+import practice02 from '../assets/practice02.webp';
+import practice03 from '../assets/practice03.webp';
 
 const practices = [
   {
     title: 'Tư vấn luật',
     description: 'Chúng tôi cung cấp dịch vụ tư vấn pháp lý chất lượng cao, giúp khách hàng giải quyết các vấn đề pháp lý một cách hiệu quả.',
     services: ['Dịch vụ tư vấn doanh nghiệp', 'Tư vấn đầu tư', 'Tư vấn hợp đồng'],
-    image: '/practice01.webp', // Replace with actual path
+    image: practice01, 
   },
   {
     title: 'Tham gia tố tụng',
     description: 'Chúng tôi hỗ trợ khách hàng tham gia tố tụng, bảo vệ quyền lợi hợp pháp của họ trước tòa án.',
     services: ['Bảo vệ quyền lợi tại tòa án', 'Đại diện pháp lý', 'Tư vấn hồ sơ tố tụng'],
-    image: '/practice02.webp', // Replace with actual path
+    image: practice02, 
   },
   {
     title: 'Dịch vụ pháp lý',
     description: 'Chúng tôi cung cấp dịch vụ pháp lý đa dạng, từ soạn thảo hợp đồng đến tư vấn pháp luật cho doanh nghiệp.',
     services: ['Soạn thảo hợp đồng', 'Tư vấn pháp luật cho doanh nghiệp', 'Đăng ký doanh nghiệp'],
-    image: 'practice03.webp', // Replace with actual path
+    image: practice03, 
   },
 ];
 

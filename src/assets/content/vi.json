@@ -1,0 +1,68 @@
+{
+  "businessInfo": {
+    "name": "TK & Associates",
+    "hotline": "+84 2 222 1697",
+    "registeredName":"VĂN PHÒNG LUẬT SƯ TK & LIÊN DANH"
+  }, 
+  "menu": {
+    "about": "Về chúng tôi",
+    "practices": "Lĩnh vực hoạt động",
+    "blog": "Bài viết",
+    "location": "Địa chỉ",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "usefulLinks": "Thông tin hữu ích",
+    "legal": "Chính sách",
+    "aboutUs": "Về chúng tôi",
+    "blog": "Bài viết",
+    "faqs": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "followUs": "Theo dõi chúng tôi",
+    "contactInfo": "Tầng 1, tòa nhà Rosana, 60 Nguyễn Đình Chiểu, Đa Kao, Q. 1, TP. HCM",
+    "privacyPolicy": "Chính sách bảo mật",
+    "cookiePolicy": "Chính sách cookie",
+    "termsOfUse": "Điều khoản sử dụng",
+    "phone":"Số điện thoại",
+    "phoneNum": "+84 2 222 1697",
+    "faxNum": "+84 8 222 02201",
+    "email": "khuongdinhtien@gmail.com"
+  },
+  "attorneysSection": {
+  "heading": "Đội ngũ luật sư",
+  "description": "Đội ngũ luật sư giàu kinh nghiệm của chúng tôi cam kết cung cấp tư vấn pháp lý toàn diện và phù hợp với từng khách hàng. Chúng tôi chuyên về nhiều lĩnh vực pháp luật khác nhau. Với hiểu biết sâu sắc về hệ thống pháp luật và cam kết về chất lượng, chúng tôi nỗ lực đạt được kết quả tốt nhất cho khách hàng của mình.",
+  "buttonText": "Tìm hiểu thêm",
+  "attorneys": [
+    {
+      "name": "Lương Trung Tín",
+      "title": "Luật sư tố tụng",
+      "image": "attorney01.png"
+    },
+    {
+      "name": "Khương Đình Tiến",
+      "title": "Luật sư trường",
+      "image": "attorney02.png"
+    },
+    {
+      "name": "Trần Thị Như Ý",
+      "title": "Luật sư cộng sự",
+      "image": "attorney03.png"
+    }
+  ]
+},
+"CTASection": {
+  "heading": "Bạn cần tư vấn pháp lý chuyên nghiệp?",
+  "description": "Đội ngũ luật sư tận tâm của chúng tôi luôn sẵn sàng cung cấp các giải pháp pháp lý phù hợp với từng nhu cầu của bạn. Cho dù bạn đang đối mặt với một thách thức pháp lý hay chỉ cần lời khuyên, chúng tôi chỉ cách một cuộc gọi!",
+  "buttonText": "Gọi ngay để được tư vấn miễn phí!",
+  "subText": "Đừng chần chừ—hãy thực hiện bước đầu tiên để giải quyết các vấn đề pháp lý của bạn ngay hôm nay!"
+},
+    "hero": {
+      "title": "20 năm kinh nghiệm bảo vệ quyền và lợi ích hợp pháp của cá nhân và tổ chức",
+      "subtitle": "Văn phòng do Luật sư Khương Đình Tiến - Trưởng văn phòng chịu trách nhiệm quản lý và điều hành. Với đội ngũ luật sư nhiều kinh nghiệm và tận tâm, chúng tôi hoạt động trong các lĩnh vực như tham gia tố tụng, tư vấn pháp luật, thực hiện các dịch vụ pháp lý khác theo quy định của pháp luật."
+    },
+    "cta": {
+      "buttonText": "Tìm hiểu thêm",
+      "buttonLink": "https://google.com"
+    }
+  }
+  
