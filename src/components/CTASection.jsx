@@ -13,16 +13,16 @@ function CTASection() {
           {content.businessInfo.name}
         </h2>
         
-        <p className="text-lg text-primary mb-4">
+        {/* <p className="text-lg text-primary mb-4">
           {content.footer.contactInfo}
-        </p>
+        </p> */}
+        
+        <a href={`tel:${content.businessInfo.hotline.replace(/\s+/g, '')}`} className="text-lg text-primary mb-4 ">
+          {content.footer.phone}: <span className="font-bold hover:text-buttonBg">{content.businessInfo.hotline}</span>
+        </a>
         
         <p className="text-lg text-primary mb-4">
-          {content.footer.phone}: <span className="font-bold">{content.businessInfo.hotline}</span>
-        </p>
-        
-        <p className="text-lg text-primary mb-4">
-          Email: <a href={`mailto:${content.footer.email}`} className="hover:text-accent transition duration-300">
+          Email: <a href={`mailto:${content.footer.email}`} className="hover:text-buttonBg transition duration-300">
             {content.footer.email}
           </a>
         </p>

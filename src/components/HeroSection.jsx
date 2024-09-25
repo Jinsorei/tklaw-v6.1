@@ -8,22 +8,20 @@ function HeroSection({ title, subtitle, backgroundImage }) {
 
   return (
     <section
-      className="relative h-[60vh] bg-cover bg-center flex items-center justify-center sm:pt-20 md:pt-24 lg:pt-32 pb-24"
+      className="relative h-[65vh] bg-cover bg-center flex items-center justify-center sm:pt-32 md:pt-38 lg:pt-40 pb-24"
       style={{ 
-        backgroundImage: `url(${heroBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundImage: `url(${heroBg})`
       }}
     >
       {/* Subtle overlay to prevent too much contrast */}
-      <div className="absolute inset-0 bg-black opacity-50 mx-auto"></div>
+      <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 max-w-4xl text-center px-4 sm:px-40 md:px-50">
+      <div className="relative z-10 max-w-4xl text-center px-4 sm:px-40 md:px-48 transition duration-300">
         <p className="text-xs lg:text-base sm:mb-1 text-slate-100">
           {content.hero.subtitle}
         </p>
-        <h1 className="font-secondary text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold leading-tight mb-4 text-slate-50">
+        <h1 className="font-secondary text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8 text-slate-50">
           {content.hero.title.split('\n').map((line, index) => (
           <span key={index}>
             {line}

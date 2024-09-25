@@ -206,6 +206,118 @@
       "content": "If you have any questions about these terms, please contact us at support@example.com."
     }
   },
+  "aboutUs": {
+    "heroTitle": "About Our Firm",
+    "heroDescription": "We are committed to providing top-tier legal services with a focus on client satisfaction.",
+    "heroButton": "Contact Us",
+
+    "title": "Introducing Our Firm",
+    "description": "Our firm has been providing expert legal services for over 50 years, specializing in areas of corporate law, litigation, and more.",
+    "ctaButton": "Get in Touch",
+
+    "areasOfLaw": [
+      {
+        "title": "Corporate Law",
+        "icon": "CorporateLawIcon"
+      },
+      {
+        "title": "Litigation",
+        "icon": "LitigationIcon"
+      },
+      {
+        "title": "Intellectual Property",
+        "icon": "IpIcon"
+      },
+      {
+        "title": "Tax Law",
+        "icon": "TaxLawIcon"
+      },
+      {
+        "title": "Real Estate",
+        "icon": "RealEstateIcon"
+      },
+      {
+        "title": "Employment Law",
+        "icon": "EmploymentIcon"
+      }
+    ],
+
+    "valuesTitle": "Our Core Values",
+    "valuesDescription": "We believe in integrity, transparency, and dedication to our clients’ success.",
+    "values": [
+      {
+        "title": "Integrity",
+        "description": "We adhere to the highest ethical standards.",
+        "icon": "IntegrityIcon"
+      },
+      {
+        "title": "Client Focus",
+        "description": "Our clients' needs are always our top priority.",
+        "icon": "ClientFocusIcon"
+      },
+      {
+        "title": "Innovation",
+        "description": "We embrace change and foster creativity.",
+        "icon": "InnovationIcon"
+      }
+    ]
+  },
+  "practices": {
+    "heroTitle": "Our Practice Areas",
+    "heroSubtitle": "Specializing in a wide range of legal fields to meet your needs.",
+    "sectionTitle": "Areas of Practice",
+    "areasOfPractice": [
+      {
+        "name": "Corporate Law",
+        "description": "Expertise in business formation, governance, and compliance.",
+        "additionalInfo": "Our corporate law team provides tailored solutions for both startups and established businesses.",
+        "slug": "corporate-law",
+        "icon": "corporateLawIcon"
+      },
+      {
+        "name": "Family Law",
+        "description": "Compassionate legal guidance for family matters.",
+        "additionalInfo": "From divorce to child custody, our attorneys prioritize your family's well-being.",
+        "slug": "family-law",
+        "icon": "familyLawIcon"
+      },
+      {
+        "name": "Real Estate Law",
+        "description": "Handling complex property transactions and disputes.",
+        "additionalInfo": "We assist with both residential and commercial real estate issues.",
+        "slug": "real-estate-law",
+        "icon": "realEstateIcon"
+      }
+    ],
+    "learnMore": "Learn More",
+    "testimonialsTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "The team was incredible in handling my case. Highly recommended!",
+        "author": "John Doe",
+        "position": "Business Owner"
+      },
+      {
+        "quote": "Their expertise in family law made a tough situation much easier.",
+        "author": "Jane Smith",
+        "position": "Client"
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "What should I expect during my first consultation?",
+        "answer": "We will discuss your legal needs, outline potential strategies, and provide an overview of our fees."
+      },
+      {
+        "question": "How do you charge for your services?",
+        "answer": "We offer a variety of billing options, including flat fees and hourly rates, depending on the type of case."
+      }
+    ],
+    "ctaTitle": "Ready to work with us?",
+    "ctaDescription": "Contact our firm today for a consultation and see how we can assist you.",
+    "ctaButtonText": "Get in Touch"
+  },
   "cta": {
     "buttonText": "Get Free Consultation",
     "buttonLink": "https://google.com"

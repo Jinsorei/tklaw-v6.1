@@ -10,7 +10,7 @@
 }, 
   "menu": {
     "about": "Về chúng tôi",
-    "practices": "Lĩnh vực hoạt động",
+    "practices": "Lĩnh vực",
     "blog": "Bài viết",
     "location": "Địa chỉ",
     "contact": "Liên hệ"
@@ -204,6 +204,118 @@
       "header": "Liên Hệ Với Chúng Tôi",
       "content": "Nếu bạn có bất kỳ câu hỏi nào về các điều khoản này, vui lòng liên hệ với chúng tôi qua email support@example.com."
     }
+  },
+  "aboutUs": {
+    "heroTitle": "Giới Thiệu Về Công Ty",
+    "heroDescription": "Chúng tôi cam kết cung cấp các dịch vụ pháp lý hàng đầu với sự hài lòng của khách hàng là trọng tâm.",
+    "heroButton": "Liên Hệ Chúng Tôi",
+
+    "title": "Giới Thiệu Công Ty",
+    "description": "Công ty chúng tôi đã cung cấp các dịch vụ pháp lý chuyên nghiệp hơn 50 năm, chuyên về các lĩnh vực luật doanh nghiệp, kiện tụng và nhiều lĩnh vực khác.",
+    "ctaButton": "Liên Hệ Ngay",
+
+    "areasOfLaw": [
+      {
+        "title": "Luật Doanh Nghiệp",
+        "icon": "CorporateLawIcon"
+      },
+      {
+        "title": "Kiện Tụng",
+        "icon": "LitigationIcon"
+      },
+      {
+        "title": "Sở Hữu Trí Tuệ",
+        "icon": "IpIcon"
+      },
+      {
+        "title": "Luật Thuế",
+        "icon": "TaxLawIcon"
+      },
+      {
+        "title": "Bất Động Sản",
+        "icon": "RealEstateIcon"
+      },
+      {
+        "title": "Luật Lao Động",
+        "icon": "EmploymentIcon"
+      }
+    ],
+
+    "valuesTitle": "Giá Trị Cốt Lõi",
+    "valuesDescription": "Chúng tôi tin tưởng vào sự chính trực, minh bạch và cam kết thành công của khách hàng.",
+    "values": [
+      {
+        "title": "Chính Trực",
+        "description": "Chúng tôi tuân thủ các tiêu chuẩn đạo đức cao nhất.",
+        "icon": "IntegrityIcon"
+      },
+      {
+        "title": "Tập Trung Vào Khách Hàng",
+        "description": "Nhu cầu của khách hàng luôn là ưu tiên hàng đầu của chúng tôi.",
+        "icon": "ClientFocusIcon"
+      },
+      {
+        "title": "Sáng Tạo",
+        "description": "Chúng tôi đón nhận thay đổi và thúc đẩy sự sáng tạo.",
+        "icon": "InnovationIcon"
+      }
+    ]
+  },
+  "practices": {
+    "heroTitle": "Các Lĩnh Vực Hành Nghề Của Chúng Tôi",
+    "heroSubtitle": "Chuyên môn hóa trong nhiều lĩnh vực pháp lý để đáp ứng nhu cầu của bạn.",
+    "sectionTitle": "Lĩnh Vực Hành Nghề",
+    "areasOfPractice": [
+      {
+        "name": "Luật Doanh Nghiệp",
+        "description": "Chuyên môn trong việc thành lập doanh nghiệp, quản trị và tuân thủ.",
+        "additionalInfo": "Đội ngũ luật sư của chúng tôi cung cấp các giải pháp phù hợp cho cả doanh nghiệp khởi nghiệp và đã thành lập.",
+        "slug": "luat-doanh-nghiep",
+        "icon": "corporateLawIcon"
+      },
+      {
+        "name": "Luật Gia Đình",
+        "description": "Hướng dẫn pháp lý đầy cảm thông cho các vấn đề gia đình.",
+        "additionalInfo": "Từ ly hôn đến quyền nuôi con, luật sư của chúng tôi ưu tiên sự an toàn của gia đình bạn.",
+        "slug": "luat-gia-dinh",
+        "icon": "familyLawIcon"
+      },
+      {
+        "name": "Luật Bất Động Sản",
+        "description": "Giải quyết các giao dịch và tranh chấp tài sản phức tạp.",
+        "additionalInfo": "Chúng tôi hỗ trợ cả vấn đề bất động sản dân dụng và thương mại.",
+        "slug": "luat-bat-dong-san",
+        "icon": "realEstateIcon"
+      }
+    ],
+    "learnMore": "Tìm Hiểu Thêm",
+    "testimonialsTitle": "Khách Hàng Nói Gì Về Chúng Tôi",
+    "testimonials": [
+      {
+        "quote": "Đội ngũ rất tuyệt vời trong việc xử lý trường hợp của tôi. Rất đáng khuyên!",
+        "author": "Nguyễn Văn A",
+        "position": "Chủ Doanh Nghiệp"
+      },
+      {
+        "quote": "Chuyên môn của họ trong luật gia đình đã giúp tôi vượt qua một tình huống khó khăn.",
+        "author": "Trần Thị B",
+        "position": "Khách Hàng"
+      }
+    ],
+    "faqTitle": "Câu Hỏi Thường Gặp",
+    "faqs": [
+      {
+        "question": "Tôi nên mong đợi điều gì trong cuộc tư vấn đầu tiên?",
+        "answer": "Chúng tôi sẽ thảo luận về nhu cầu pháp lý của bạn, phác thảo các chiến lược tiềm năng và cung cấp tổng quan về phí của chúng tôi."
+      },
+      {
+        "question": "Bạn tính phí cho các dịch vụ của mình như thế nào?",
+        "answer": "Chúng tôi cung cấp nhiều tùy chọn tính phí, bao gồm phí cố định và theo giờ, tùy thuộc vào loại vụ án."
+      }
+    ],
+    "ctaTitle": "Sẵn Sàng Làm Việc Với Chúng Tôi?",
+    "ctaDescription": "Liên hệ với văn phòng của chúng tôi hôm nay để được tư vấn và xem cách chúng tôi có thể hỗ trợ bạn.",
+    "ctaButtonText": "Liên Hệ Ngay"
   },
     "cta": {
       "buttonText": "Tìm hiểu thêm",

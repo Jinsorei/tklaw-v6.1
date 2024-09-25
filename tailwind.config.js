@@ -9,11 +9,12 @@ export default {
       colors: {
         primary: '#1a1a1a',  // Darker black
         secondary: '#e0e0e0', // Light gray for background areas
-        accent: '#494949',  // Slightly lighter black for accents
+        accent: '#737373',  // Slightly lighter black for accents
         background: '#f0f0f0', // Softer white/gray for page backgrounds
         text: '#1c1c1c', // Dark gray for text for better readability
         muted: '#7f7f7f', // Muted gray for less important text
         buttonBg: '#800008', // Muted dark red for button background
+        navLinkAccent: '#be000c', // brighter red accent for navbar links
         secondaryButtonBg: '#535353', // Gray for secondary button background
         photoBg: '#D9D9D9', // light grey for headshot background
         whyUsBg: '#464646'
