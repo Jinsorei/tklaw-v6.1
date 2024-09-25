@@ -1,36 +1,50 @@
 import { Link } from 'react-router-dom';
 import { FiArrowRight} from 'react-icons/fi';
 import { useLanguage } from './LanguageProvider';
+import heroBg from '../assets/hero_bg.png'
 
 function HeroSection({ title, subtitle, backgroundImage }) {
   const { content } = useLanguage();
 
   return (
     <section
-      className="relative bg-cover bg-center flex items-center justify-center py-16 sm:py-20 md:py-24 lg:py-32 mt-16 md:mt-24 lg:mt-32"
+      className="relative h-[60vh] bg-cover bg-center flex items-center justify-center sm:pt-20 md:pt-24 lg:pt-32 pb-24"
       style={{ 
-        backgroundImage: `url(${backgroundImage})`,
+        backgroundImage: `url(${heroBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
       {/* Subtle overlay to prevent too much contrast */}
-      <div className="absolute inset-0 bg-black opacity-70"></div>
+      <div className="absolute inset-0 bg-black opacity-50 mx-auto"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 max-w-4xl text-center px-4 sm:px-6 lg:px-8">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6 lg:mb-8 text-slate-50 drop-shadow-md">
-          {content.hero.title}
-        </h1>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 sm:mb-10 lg:mb-12 text-slate-100 drop-shadow-md">
+      <div className="relative z-10 max-w-4xl text-center px-4 sm:px-40 md:px-50">
+        <p className="text-xs lg:text-base sm:mb-1 text-slate-100">
           {content.hero.subtitle}
         </p>
+        <h1 className="font-secondary text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold leading-tight mb-4 text-slate-50">
+          {content.hero.title.split('\n').map((line, index) => (
+          <span key={index}>
+            {line}
+            <br />
+          </span>
+      ))}
+        </h1>
+        <p className='lg:text-lg text-slate-100 mb-8'>
+          {content.hero.description}
+        </p>
+        
         
         {/* CTA Button */}
-        <Link to="/contact" className="inline-flex items-center justify-center bg-primary text-white font-bold py-2 px-4 rounded-md border-2 border-white shadow hover:bg-accent transition duration-300">
-          {content.cta.buttonText}
-          <FiArrowRight className="ml-2" />
-        </Link>
+        <Link
+  to="/contact"
+  className="uppercase inline-flex items-center justify-center rounded-sm bg-buttonBg text-white py-3 px-5 hover:bg-white hover:text-buttonBg hover:shadow-lg transition duration-300"
+>
+  <span>{content.hero.buttonText}</span>
+  <FiArrowRight className="ml-2" />
+</Link>
+
 
       </div>
     </section>

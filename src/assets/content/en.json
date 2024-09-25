@@ -2,6 +2,10 @@
   "businessInfo": {
     "name": "TK & Associates",
     "hotline": "+84 2 222 1697",
+    "longHotlineText": "Call to schedule your consultation today: ",
+    "shortHotlineText": "Call: ",
+    "buttonText": "Call now for a free consultation!",
+    "ctaText": "Don't wait - take the first step towards resolving your legal issues today!",
     "registeredName": "VĂN PHÒNG LUẬT SƯ TK & LIÊN DANH"
   }, 
   "menu": {
@@ -36,17 +40,17 @@
       {
         "name": "Nguyen Van A",
         "title": "Senior Attorney",
-        "image": "attorney01.png"
+        "image": "attorney01"
       },
       {
         "name": "Khương Đình Tiến",
         "title": "Lead Attorney",
-        "image": "attorney02.png"
+        "image": "attorney02"
       },
       {
         "name": "Tran Thi B",
         "title": "Lead Attorney",
-        "image": "attorney03.png"
+        "image": "attorney03"
       }
     ]
   },
@@ -56,12 +60,155 @@
     "buttonText": "Call Now for a Free Consultation!",
     "subText": "Don’t wait—take the first step towards resolving your legal issues today!"
   },
+  "practicesSection": {
+    "heading": "We provide legal services in",
+    "description": "Our experienced legal team is dedicated to providing comprehensive and tailored legal advice and representation to our clients. We specialize in various areas of law. With a deep understanding of the legal landscape and a commitment to excellence, we strive to achieve the best possible outcomes for our clients.",
+    "practices": [
+      {
+        "name": "Legal Consultation",
+        "description": "We provide legal advice and support services to individuals, businesses, and organizations, helping them understand and comply with legal regulations.",
+        "image": "practice01",
+        "services": ["Business consulting services", "Investment consulting", "Contract consulting"]
+      },
+      {
+        "name": "Litigation",
+        "description": "Our lawyers participate in litigation, representing and defending clients in legal cases. Based on the details of the case, preparations are made.",
+        "image": "practice02",
+        "services": ["Dispute resolution", "Trial representation", "Appeal"]
+      },
+      {
+        "name": "Legal Services",
+        "description": "We assist clients in resolving legal issues such as drafting and reviewing legal documents like contracts and agreements.",
+        "image": "practice03",
+        "services": ["Contract drafting", "Document review", "Legal research"]
+      }
+    ]
+  },
   "hero": {
-    "title": "20 years of experience protecting your legal rights",
-    "subtitle": "The law firm is under the direction and management of Attorney Khương Đình Tiến, the Managing Partner. With a skilled team of legal practitioners, we specialize in litigation, legal advice, and other legal services as permitted by law."
+    "title": "TK & ASSOCIATES\nLAW OFFICE",
+    "subtitle": "20 years protecting legal rights for individuals and organizations",
+    "description": "We provide legal advice and support services to individuals, businesses, and organizations, helping them understand and comply with legal regulations.",
+    "buttonText": "Talk to us",
+    "buttonLink": "https://google.com"
+  },
+  "aboutOurFirmSection": {
+    "title": "about our firm",
+    "description": "As a leading law firm in Ho Chi Minh City, TK & Associates boasts a profound understanding of the intricacies of the Vietnamese legal system. With over 20 years of experience, our firm has successfully navigated a wide range of legal matters for individuals and organizations across Vietnam. Our team of skilled attorneys is dedicated to providing tailored solutions that leverage our deep-rooted knowledge and expertise, ensuring optimal outcomes for our clients.",
+    "buttonText": "Call us",
+    "practice1": "Litigation",
+    "subtitle1": "Expert handling of court cases and legal disputes",
+    "practice2": "Corporate Law",
+    "subtitle2": "Comprehensive business legal services",
+    "practice3": "Real Estate",
+    "subtitle3": "Property law expertise for transactions and disputes",
+    "practice4": "Finance Law",
+    "subtitle4": "Advising on financial regulations and disputes"
+  },
+  
+   "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "At TK & Associates, we are dedicated to providing exceptional legal services tailored to your unique needs. Our team of skilled attorneys offers a comprehensive range of legal expertise, from civil disputes to court representation and beyond. We are committed to delivering personalized attention, results-driven solutions, and affordable legal representation. Our approach is centered on building strong relationships with our clients, understanding their goals, and working tirelessly to achieve the best possible outcomes.",
+    "buttonText": "Call today",
+    "points": [
+      {
+        "title": "Personalized attention to each client",
+        "description": "Our team consists of seasoned experts in their respective fields."
+      },
+      {
+        "title": "Result-driven solutions",
+        "description": "We prioritize your needs and deliver personalized solutions."
+      },
+      {
+        "title": "Proven Track Record",
+        "description": "We have a long history of success and client satisfaction."
+      }
+    ]
+  },
+  "cookiesPolicy": {
+    "title": "Cookies Policy",
+    "introduction": "This Cookies Policy explains how we use cookies and similar technologies to recognize you when you visit our website, including any other media form, media channel, mobile website, or mobile application related or connected thereto.",
+    "whatAreCookies": {
+      "header": "What are Cookies?",
+      "content": "Cookies are small data files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, as well as to provide information to the owners of the site."
+    },
+    "howWeUseCookies": {
+      "header": "How We Use Cookies",
+      "content": "We use cookies for several reasons, including: to improve user experience, to analyze how our website is used, and to deliver personalized content. Below is a list of the cookies we use on our site:"
+    },
+    "cookiesList": {
+      "header": "Types of Cookies We Use",
+      "essential": "Essential Cookies: These cookies are necessary for the website to function and cannot be switched off in our systems.",
+      "analytics": "Analytics Cookies: These cookies help us understand how visitors interact with our website, allowing us to improve the user experience.",
+      "advertising": "Advertising Cookies: These cookies are used to deliver advertisements that are relevant to you and your interests."
+    },
+    "yourChoices": {
+      "header": "Your Choices Regarding Cookies",
+      "content": "You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer."
+    },
+    "changesToPolicy": {
+      "header": "Changes to This Cookies Policy",
+      "content": "We may update our Cookies Policy from time to time. We will notify you of any changes by posting the new Cookies Policy on this page."
+    },
+    "contact": {
+      "header": "Contact Us",
+      "content": "If you have any questions about our Cookies Policy, please contact us at [email@example.com]."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "introduction": "Your privacy is important to us. This policy outlines how we collect, use, and protect your information.",
+    "informationCollection": {
+      "header": "Information We Collect",
+      "content": "We collect information from you when you visit our site, register on our site, or interact with us in other ways. This may include personal information such as your name, email address, and phone number."
+    },
+    "howWeUseYourInformation": {
+      "header": "How We Use Your Information",
+      "content": "We use the information we collect to improve our website, enhance customer service, and send periodic emails regarding your order or other products and services."
+    },
+    "informationProtection": {
+      "header": "Information Protection",
+      "content": "We implement a variety of security measures to maintain the safety of your personal information. Your information is stored on secure networks and is only accessible by a limited number of persons who have special access rights."
+    },
+    "yourRights": {
+      "header": "Your Rights",
+      "content": "You have the right to access, correct, or delete your personal information. You can request to view the information we hold about you."
+    },
+    "changesToPrivacyPolicy": {
+      "header": "Changes to This Privacy Policy",
+      "content": "We may update this privacy policy from time to time. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your account."
+    },
+    "contact": {
+      "header": "Contact Us",
+      "content": "If you have any questions about this privacy policy, please contact us at our provided email address."
+    }
+  },
+  "termsOfUse": {
+    "title": "Terms of Use",
+    "introduction": "Welcome to our website. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions.",
+    "userObligations": {
+      "header": "User Obligations",
+      "content": "As a user, you agree to use the website in accordance with applicable laws and regulations. You are responsible for maintaining the confidentiality of your account information."
+    },
+    "intellectualProperty": {
+      "header": "Intellectual Property",
+      "content": "All content on this website, including text, graphics, logos, and images, is the property of our company and is protected by copyright laws."
+    },
+    "limitationOfLiability": {
+      "header": "Limitation of Liability",
+      "content": "We shall not be liable for any direct, indirect, incidental, or consequential damages resulting from your use of this website."
+    },
+    "modifications": {
+      "header": "Modifications",
+      "content": "We reserve the right to modify these terms at any time. Any changes will be effective immediately upon posting on the website."
+    },
+    "contact": {
+      "header": "Contact Us",
+      "content": "If you have any questions about these terms, please contact us at support@example.com."
+    }
   },
   "cta": {
     "buttonText": "Get Free Consultation",
     "buttonLink": "https://google.com"
   }
+
 }

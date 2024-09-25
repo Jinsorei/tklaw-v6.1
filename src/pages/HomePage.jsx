@@ -1,9 +1,12 @@
 // src/pages/HomePage.jsx
 import useContentful from '../useContentful';
 import HeroSection from '../components/HeroSection';
-import Practices from '../components/Practices';
-import Attorneys from '../components/Attorneys';
-import CTASection from '../components/CTASection'
+import CTASection from '../components/CTASection';
+import AboutUsSection from '../components/AboutUsSection';
+import AttorneysSection from '../components/AttorneysSection';
+import WhyUsSection from '../components/WhyUsSection';
+import AwardSection from '../components/Awards';
+
 
 function HomePage() {
   const { data, loading, error } = useContentful([
@@ -24,8 +27,10 @@ function HomePage() {
         buttonText={heroData.buttonText}
         buttonLink={heroData.buttonLink}
       />
-      <Practices />
-      <Attorneys />
+      <AboutUsSection />
+      <AttorneysSection />
+      <WhyUsSection />
+      <AwardSection />
       <CTASection />
     </div>
   );

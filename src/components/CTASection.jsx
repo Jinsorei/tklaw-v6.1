@@ -1,31 +1,42 @@
-import { Link } from 'react-router-dom';
-import { useLanguage } from './LanguageProvider';
+import { useLanguage } from './LanguageProvider';  // Adjust the path as necessary
+import logo from '/logoBlack.png'; // Update this path to the actual logo file location
 
-function CallToAction() {
-    const { content } = useLanguage();
+function CTASection() {
+  const { content } = useLanguage(); // Fetch business info using the useLanguage hook
 
   return (
-    <section className="py-16 bg-gradient-to-r from-primary to-accent text-white text-center relative">
-      <div className="absolute inset-0 bg-black opacity-60"></div>
-      <div className="relative z-10 container mx-auto">
-        <h2 className="text-h2 font-bold mb-4 text-white drop-shadow-md">
-          {content.CTASection.heading}
+    <section className="bg-background py-8">
+      <div className="container mx-auto px-6 text-center">
+        <img src={logo} alt={`${content.businessInfo.name} Logo`} className="h-16 mx-auto mb-4 border border-black rounded" />
+        
+        <h2 className="font-secondary text-4xl font-bold text-primary mb-2">
+          {content.businessInfo.name}
         </h2>
-        <p className="mb-8 text-lg md:text-xl leading-relaxed drop-shadow-md">
-        {content.CTASection.description}
+        
+        <p className="text-lg text-primary mb-4">
+          {content.footer.contactInfo}
         </p>
-        <Link
-          to="tel:+8422221697" // Update with your actual hotline number
-          className="inline-block bg-accent text-white py-4 px-8 rounded-lg shadow-lg hover:bg-opacity-80 transition-colors duration-300 transform hover:scale-105"
-        >
-          <span className="font-bold text-lg">{content.CTASection.buttonText}</span>
-        </Link>
-        <p className="mt-4 text-sm">
-        {content.CTASection.subText}
+        
+        <p className="text-lg text-primary mb-4">
+          {content.footer.phone}: <span className="font-bold">{content.businessInfo.hotline}</span>
         </p>
+        
+        <p className="text-lg text-primary mb-4">
+          Email: <a href={`mailto:${content.footer.email}`} className="hover:text-accent transition duration-300">
+            {content.footer.email}
+          </a>
+        </p>
+        
+        <p className="text-lg text-primary mb-4">
+          {content.businessInfo.ctaText}
+        </p>
+        
+        <a href={`tel:${content.businessInfo.hotline.replace(/\s+/g, '')}`} className="uppercase inline-flex items-center justify-center bg-buttonBg text-white py-2 px-4 rounded-sm hover:bg-white hover:text-buttonBg transition duration-300">
+          {content.businessInfo.buttonText}
+        </a>
       </div>
     </section>
   );
 }
 
-export default CallToAction;
+export default CTASection;

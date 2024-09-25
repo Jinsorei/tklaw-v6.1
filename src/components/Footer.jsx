@@ -1,5 +1,6 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaLinkedin } from 'react-icons/fa';
 import { useLanguage } from './LanguageProvider';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const { content } = useLanguage();
@@ -43,9 +44,9 @@ function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">{content.footer.legal}</h4>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-accent transition duration-300">{content.footer.privacyPolicy}</a></li>
-            <li><a href="#" className="hover:text-accent transition duration-300">{content.footer.cookiePolicy}</a></li>
-            <li><a href="#" className="hover:text-accent transition duration-300">{content.footer.termsOfUse}</a></li>
+            <li><Link to="/privacy-policy" className="hover:underline transition duration-300">{content.footer.privacyPolicy}</Link></li>
+            <li><Link to="/cookies-policy" className="hover:underline transition duration-300">{content.footer.cookiePolicy}</Link></li>
+            <li><Link to="/terms-of-use" className="hover:text-accent transition duration-300">{content.footer.termsOfUse}</Link></li>
           </ul>
         </div>
       </div>
