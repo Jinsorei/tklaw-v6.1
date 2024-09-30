@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage';
 import CookiesPage from './pages/CookiesPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsOfUsePage from './pages/TermsOfUsePage';
+import AboutUsPage from './pages/AboutUsPage';
+import PracticesPage from './pages/PracticesPage';
 import { LanguageProvider } from './components/LanguageProvider';
 
 
@@ -18,6 +20,8 @@ function App() {
           <Route path="/cookies-policy" element={<CookiesPage />} />
           <Route path="/privacy-policy" element={<PrivacyPage />} />
           <Route path="/terms-of-use" element={<TermsOfUsePage />} />
+          <Route path="/about" element={<AboutUsPage />} />
+          <Route path="/practices" element={<PracticesPage />} />
         </Routes>
         <Footer />
     </Router>
