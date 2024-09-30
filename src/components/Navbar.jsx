@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white text-black shadow">
-      <div className="container mx-auto px-6 py-2">
+      <div className="container mx-auto py-2 px-4 sm:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2 text-lg sm:text-3xl md:text-4xl lg:text-5xl font-bold">
             <Link to="/">
@@ -46,7 +46,7 @@ function Navbar() {
                 className="h-9 w-auto max-w-full rounded border border-black"  
               />
             </Link>
-            <Link to="/" className={`hidden md:block font-secondary font-bold text-black hover:text-accent transition duration-300`}>
+            <Link to="/" className={`hidden md:block font-secondary font-bold text-black hover:text-buttonBg transition duration-300`}>
               {content.businessInfo.name}
             </Link>
           </div>
@@ -54,19 +54,19 @@ function Navbar() {
           <div className="hidden lg:flex space-x-6">
             <Link 
               to="/about" 
-              className="hover:text-navLinkAccent transition duration-300 text-black">
+              className="hover:text-buttonBg transition duration-300 text-black">
               {content.menu.about}
             </Link>
-            <Link to="/practices" className="hover:text-accent transition duration-300 text-black">
+            <Link to="/practices" className="hover:text-buttonBg transition duration-300 text-black">
               {content.menu.practices}
             </Link>
-            <Link to="/blog" className="hover:text-accent transition duration-300 text-black">
+            <Link to="/blog" className="hover:text-buttonBg transition duration-300 text-black">
               {content.menu.blog}
             </Link>
-            <Link to="/location" className="flex items-center hover:text-accent transition duration-300 text-black">
+            <Link to="/location" className="flex items-center hover:text-buttonBg transition duration-300 text-black">
               <FaMapMarkerAlt className="mr-2" /> {content.menu.location}
             </Link>
-            <Link to="/contact" className="flex items-center hover:text-accent transition duration-300 text-black">
+            <Link to="/contact" className="flex items-center hover:text-buttonBg transition duration-300 text-black">
               <FaInfoCircle className="mr-2" /> {content.menu.contact}
             </Link>
           </div>
