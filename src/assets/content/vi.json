@@ -1,0 +1,326 @@
+{
+ "businessInfo": {
+  "name": "TK & Associates",
+  "hotline": "+84 2 222 1697",
+  "longHotlineText": "Gọi để đặt lịch tư vấn hôm nay: ",
+  "shortHotlineText": "Gọi: ",
+  "buttonText": "Gọi ngay để được tư vấn miễn phí!",
+  "ctaText": "Đừng chần chừ - hãy thực hiện bước đầu tiên để giải quyết vấn đề pháp lý của bạn hôm nay!",
+  "registeredName": "VĂN PHÒNG LUẬT SƯ TK & LIÊN DANH"
+}, 
+  "menu": {
+    "about": "Về chúng tôi",
+    "practices": "Lĩnh vực",
+    "blog": "Bài viết",
+    "location": "Địa chỉ",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "usefulLinks": "Thông tin hữu ích",
+    "legal": "Chính sách",
+    "aboutUs": "Về chúng tôi",
+    "blog": "Bài viết",
+    "faqs": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "followUs": "Theo dõi chúng tôi",
+    "contactInfo": "Tầng 1, tòa nhà Rosana, 60 Nguyễn Đình Chiểu, Đa Kao, Q. 1, TP. HCM",
+    "privacyPolicy": "Chính sách bảo mật",
+    "cookiePolicy": "Chính sách cookie",
+    "termsOfUse": "Điều khoản sử dụng",
+    "phone":"Số điện thoại",
+    "phoneNum": "+84 2 222 1697",
+    "faxNum": "+84 8 222 02201",
+    "email": "khuongdinhtien@gmail.com"
+  },
+  "attorneysSection": {
+  "heading": "Đội ngũ luật sư",
+  "description": "Đội ngũ luật sư giàu kinh nghiệm của chúng tôi cam kết cung cấp tư vấn pháp lý toàn diện và phù hợp với từng khách hàng. Chúng tôi chuyên về nhiều lĩnh vực pháp luật khác nhau. Với hiểu biết sâu sắc về hệ thống pháp luật và cam kết về chất lượng, chúng tôi nỗ lực đạt được kết quả tốt nhất cho khách hàng của mình.",
+  "buttonText": "Tìm hiểu thêm",
+  "attorneys": [
+    {
+      "name": "Lương Trung Tín",
+      "title": "Luật sư tố tụng",
+      "image": "attorney01"
+    },
+    {
+      "name": "Khương Đình Tiến",
+      "title": "Luật sư trường",
+      "image": "attorney02"
+    },
+    {
+      "name": "Trần Thị Như Ý",
+      "title": "Luật sư cộng sự",
+      "image": "attorney03"
+    }
+  ]
+},
+"CTASection": {
+  "heading": "Bạn cần tư vấn pháp lý chuyên nghiệp?",
+  "description": "Đội ngũ luật sư tận tâm của chúng tôi luôn sẵn sàng cung cấp các giải pháp pháp lý phù hợp với từng nhu cầu của bạn. Cho dù bạn đang đối mặt với một thách thức pháp lý hay chỉ cần lời khuyên, chúng tôi chỉ cách một cuộc gọi!",
+  "buttonText": "Gọi ngay để được tư vấn miễn phí!",
+  "subText": "Đừng chần chừ—hãy thực hiện bước đầu tiên để giải quyết các vấn đề pháp lý của bạn ngay hôm nay!"
+},
+"practicesSection": {
+    "heading": "Dịch vụ pháp lý",
+    "description": "Đội ngũ luật sư giàu kinh nghiệm của chúng tôi cam kết cung cấp tư vấn và đại diện pháp lý toàn diện và phù hợp cho khách hàng của chúng tôi. Chúng tôi chuyên về các lĩnh vực pháp luật khác nhau. Với sự hiểu biết sâu sắc về bối cảnh pháp lý và cam kết về sự xuất sắc, chúng tôi phấn đấu đạt được kết quả tốt nhất có thể cho khách hàng của chúng tôi.",
+    "practices": [
+      {
+        "name": "Tư vấn pháp lý",
+        "description": "Chúng tôi cung cấp dịch vụ tư vấn và hỗ trợ pháp lý cho cá nhân, doanh nghiệp và tổ chức, giúp họ hiểu và tuân thủ các quy định pháp lý.",
+        "image": "practice01",
+        "services": ["Tư vấn doanh nghiệp", "Tư vấn đầu tư", "Tư vấn hợp đồng"]
+      },
+      {
+        "name": "Tham gia tố tụng",
+        "description": "Luật sư của chúng tôi tham gia tố tụng, đại diện và bào chữa cho khách hàng trong các vụ án pháp lý. Dựa trên chi tiết vụ án, chuẩn bị.",
+        "image": "practice02",
+        "services": ["Giải quyết tranh chấp", "Đại diện trong phiên tòa", "Khảo kháng"]
+      },
+      {
+        "name": "Dịch vụ pháp lý",
+        "description": "Chúng tôi hỗ trợ khách hàng trong việc giải quyết các vấn đề pháp lý như soạn thảo và đánh giá các văn bản pháp lý như hợp đồng, thỏa thuận.",
+        "image": "practice03",
+        "services": ["Soạn thảo hợp đồng", "Xem xét văn bản", "Nghiên cứu pháp lý"]
+      }
+    ]
+  },
+    "hero": {
+      "title": "TK & ASSOCIATES\nLAW OFFICE",
+      "subtitle": "20 năm bảo vệ quyền lợi hợp pháp cho cá nhân và tổ chức",
+      "description": "Chúng tôi cung cấp dịch vụ tư vấn và hỗ trợ pháp lý cho cá nhân, doanh nghiệp và tổ chức, giúp họ hiểu và tuân thủ các quy định pháp lý.",
+      "buttonText": "Liên hệ tư vấn",
+      "buttonLink": "https://google.com",
+      "scrollDownText": "Xem thêm"
+    },
+    "aboutOurFirmSection": {
+    "title": "TK & Associates",
+    "description": "Là một công ty luật hàng đầu tại Thành phố Hồ Chí Minh, TK & Associates tự hào có sự hiểu biết sâu sắc về những phức tạp của hệ thống pháp luật Việt Nam. Với hơn 20 năm kinh nghiệm, công ty chúng tôi đã thành công trong việc giải quyết một loạt các vấn đề pháp lý cho cá nhân và tổ chức trên khắp Việt Nam. Đội ngũ luật sư giàu kinh nghiệm của chúng tôi cam kết cung cấp các giải pháp phù hợp, tận dụng kiến ​​thức và chuyên môn sâu rộng của chúng tôi, đảm bảo kết quả tối ưu cho khách hàng.",
+    "buttonText": "Liên hệ",
+    "practice1": "Tố tụng",
+    "subtitle1": "Chuyên gia xử lý các vụ kiện và tranh chấp pháp lý",
+    "practice2": "Luật doanh nghiệp",
+    "subtitle2": "Dịch vụ pháp lý toàn diện cho doanh nghiệp",
+    "practice3": "Luật bất động sản",
+    "subtitle3": "Pháp lý cho các giao dịch và tranh chấp",
+    "practice4": "Luật tài chính",
+    "subtitle4": "Tư vấn về quy định tài chính và tranh chấp"
+  },
+ "whyUs": {
+      "title": "Tại sao chọn chúng tôi",
+      "subtitle": "Tại TK & Associates, chúng tôi cam kết cung cấp các dịch vụ pháp lý xuất sắc phù hợp với nhu cầu riêng của bạn. Đội ngũ luật sư tài năng của chúng tôi cung cấp nhiều chuyên môn pháp lý, từ các tranh chấp dân sự đến đại diện tại tòa án và hơn thế nữa. Chúng tôi cam kết mang lại sự chú ý cá nhân, các giải pháp hiệu quả và đại diện pháp lý với chi phí hợp lý. Phương pháp của chúng tôi tập trung vào việc xây dựng mối quan hệ bền chặt với khách hàng, hiểu rõ mục tiêu của họ và nỗ lực không ngừng để đạt được kết quả tốt nhất có thể.",
+      "buttonText": "Gọi ngay hôm nay",
+      "points": [
+        {
+          "title": "Chú trọng đến từng khách hàng",
+          "description": "Đội ngũ của chúng tôi bao gồm các chuyên gia dày dạn kinh nghiệm trong các lĩnh vực của họ."
+        },
+        {
+          "title": "Giải pháp hướng đến kết quả",
+          "description": "Chúng tôi ưu tiên nhu cầu của bạn và cung cấp các giải pháp được cá nhân hóa."
+        },
+        {
+          "title": "Thành tích đáng tin cậy",
+          "description": "Chúng tôi có lịch sử thành công lâu dài và sự hài lòng của khách hàng."
+        }
+      ]
+    },
+    "cookiesPolicy": {
+    "title": "Chính sách Cookies",
+    "introduction": "Chúng tôi sử dụng cookies để cải thiện trải nghiệm của bạn trên trang web của chúng tôi.",
+    "whatAreCookies": {
+      "header": "Cookies là gì?",
+      "content": "Cookies là các tệp nhỏ được lưu trữ trên thiết bị của bạn khi bạn truy cập một trang web. Chúng giúp trang web ghi nhớ thông tin về bạn, như sở thích và thông tin đăng nhập."
+    },
+    "howWeUseCookies": {
+      "header": "Chúng tôi sử dụng cookies như thế nào?",
+      "content": "Chúng tôi sử dụng cookies để cải thiện chức năng của trang web, theo dõi lưu lượng truy cập và cá nhân hóa trải nghiệm của người dùng."
+    },
+    "cookiesList": {
+      "header": "Các loại cookies mà chúng tôi sử dụng",
+      "essential": "Cookies thiết yếu: Những cookies này cần thiết cho việc hoạt động của trang web.",
+      "analytics": "Cookies phân tích: Chúng tôi sử dụng cookies phân tích để hiểu cách người dùng tương tác với trang web.",
+      "advertising": "Cookies quảng cáo: Những cookies này giúp chúng tôi cung cấp quảng cáo phù hợp với sở thích của bạn."
+    },
+    "yourChoices": {
+      "header": "Lựa chọn của bạn",
+      "content": "Bạn có thể chọn tắt cookies thông qua cài đặt trình duyệt của mình. Tuy nhiên, điều này có thể ảnh hưởng đến trải nghiệm của bạn trên trang web."
+    },
+    "changesToPolicy": {
+      "header": "Thay đổi chính sách",
+      "content": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Hãy kiểm tra trang này định kỳ để biết thông tin mới nhất."
+    },
+    "contact": {
+      "header": "Liên hệ",
+      "content": "Nếu bạn có bất kỳ câu hỏi nào về chính sách cookies của chúng tôi, vui lòng liên hệ với chúng tôi qua email."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Chính sách Bảo mật",
+    "introduction": "Bảo mật của bạn rất quan trọng đối với chúng tôi. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn.",
+    "informationCollection": {
+      "header": "Thông tin Chúng tôi Thu thập",
+      "content": "Chúng tôi thu thập thông tin từ bạn khi bạn truy cập trang web của chúng tôi, đăng ký trên trang web, hoặc tương tác với chúng tôi theo các cách khác. Điều này có thể bao gồm thông tin cá nhân như tên, địa chỉ email và số điện thoại của bạn."
+    },
+    "howWeUseYourInformation": {
+      "header": "Cách Chúng tôi Sử dụng Thông tin của Bạn",
+      "content": "Chúng tôi sử dụng thông tin chúng tôi thu thập để cải thiện trang web của mình, nâng cao dịch vụ khách hàng và gửi email định kỳ liên quan đến đơn hàng của bạn hoặc các sản phẩm và dịch vụ khác."
+    },
+    "informationProtection": {
+      "header": "Bảo vệ Thông tin",
+      "content": "Chúng tôi thực hiện nhiều biện pháp an ninh để duy trì an toàn cho thông tin cá nhân của bạn. Thông tin của bạn được lưu trữ trên các mạng an toàn và chỉ có thể truy cập bởi một số ít người có quyền truy cập đặc biệt."
+    },
+    "yourRights": {
+      "header": "Quyền của Bạn",
+      "content": "Bạn có quyền truy cập, sửa đổi hoặc xóa thông tin cá nhân của mình. Bạn có thể yêu cầu xem thông tin mà chúng tôi lưu giữ về bạn."
+    },
+    "changesToPrivacyPolicy": {
+      "header": "Thay đổi Chính sách Bảo mật này",
+      "content": "Chúng tôi có thể cập nhật chính sách bảo mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về những thay đổi quan trọng trong cách chúng tôi xử lý thông tin cá nhân bằng cách gửi thông báo đến địa chỉ email chính mà bạn đã chỉ định trong tài khoản của mình."
+    },
+    "contact": {
+      "header": "Liên hệ với Chúng tôi",
+      "content": "Nếu bạn có bất kỳ câu hỏi nào về chính sách bảo mật này, vui lòng liên hệ với chúng tôi qua địa chỉ email đã cung cấp."
+    }
+  },
+  "termsOfUse": {
+    "title": "Điều Khoản Sử Dụng",
+    "introduction": "Chào mừng bạn đến với trang web của chúng tôi. Bằng cách truy cập hoặc sử dụng dịch vụ của chúng tôi, bạn đồng ý tuân thủ và bị ràng buộc bởi các điều khoản và điều kiện sau đây.",
+    "userObligations": {
+      "header": "Nghĩa Vụ của Người Dùng",
+      "content": "Là một người dùng, bạn đồng ý sử dụng trang web theo đúng luật pháp và quy định hiện hành. Bạn chịu trách nhiệm duy trì tính bảo mật của thông tin tài khoản của mình."
+    },
+    "intellectualProperty": {
+      "header": "Quyền Sở Hữu Trí Tuệ",
+      "content": "Tất cả nội dung trên trang web này, bao gồm văn bản, đồ họa, logo và hình ảnh, thuộc sở hữu của công ty chúng tôi và được bảo vệ bởi luật bản quyền."
+    },
+    "limitationOfLiability": {
+      "header": "Giới Hạn Trách Nhiệm",
+      "content": "Chúng tôi sẽ không chịu trách nhiệm cho bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc hậu quả nào phát sinh từ việc bạn sử dụng trang web này."
+    },
+    "modifications": {
+      "header": "Thay Đổi",
+      "content": "Chúng tôi bảo lưu quyền sửa đổi các điều khoản này bất cứ lúc nào. Mọi thay đổi sẽ có hiệu lực ngay lập tức khi được đăng trên trang web."
+    },
+    "contact": {
+      "header": "Liên Hệ Với Chúng Tôi",
+      "content": "Nếu bạn có bất kỳ câu hỏi nào về các điều khoản này, vui lòng liên hệ với chúng tôi qua email support@example.com."
+    }
+  },
+  "aboutUs": {
+    "heroTitle": "Giới Thiệu Về Công Ty",
+    "heroDescription": "Chúng tôi cam kết cung cấp các dịch vụ pháp lý hàng đầu với sự hài lòng của khách hàng là trọng tâm.",
+    "heroButton": "Liên Hệ Chúng Tôi",
+
+    "title": "Giới Thiệu Công Ty",
+    "description": "Công ty chúng tôi đã cung cấp các dịch vụ pháp lý chuyên nghiệp hơn 50 năm, chuyên về các lĩnh vực luật doanh nghiệp, kiện tụng và nhiều lĩnh vực khác.",
+    "ctaButton": "Liên Hệ Ngay",
+
+    "areasOfLaw": [
+      {
+        "title": "Luật Doanh Nghiệp",
+        "icon": "CorporateLawIcon"
+      },
+      {
+        "title": "Kiện Tụng",
+        "icon": "LitigationIcon"
+      },
+      {
+        "title": "Sở Hữu Trí Tuệ",
+        "icon": "IpIcon"
+      },
+      {
+        "title": "Luật Thuế",
+        "icon": "TaxLawIcon"
+      },
+      {
+        "title": "Bất Động Sản",
+        "icon": "RealEstateIcon"
+      },
+      {
+        "title": "Luật Lao Động",
+        "icon": "EmploymentIcon"
+      }
+    ],
+
+    "valuesTitle": "Giá Trị Cốt Lõi",
+    "valuesDescription": "Chúng tôi tin tưởng vào sự chính trực, minh bạch và cam kết thành công của khách hàng.",
+    "values": [
+      {
+        "title": "Chính Trực",
+        "description": "Chúng tôi tuân thủ các tiêu chuẩn đạo đức cao nhất.",
+        "icon": "IntegrityIcon"
+      },
+      {
+        "title": "Tập Trung Vào Khách Hàng",
+        "description": "Nhu cầu của khách hàng luôn là ưu tiên hàng đầu của chúng tôi.",
+        "icon": "ClientFocusIcon"
+      },
+      {
+        "title": "Sáng Tạo",
+        "description": "Chúng tôi đón nhận thay đổi và thúc đẩy sự sáng tạo.",
+        "icon": "InnovationIcon"
+      }
+    ]
+  },
+  "practices": {
+    "heroTitle": "Các Lĩnh Vực Hành Nghề Của Chúng Tôi",
+    "heroSubtitle": "Chuyên môn hóa trong nhiều lĩnh vực pháp lý để đáp ứng nhu cầu của bạn.",
+    "sectionTitle": "Lĩnh Vực Hành Nghề",
+    "areasOfPractice": [
+      {
+        "name": "Luật Doanh Nghiệp",
+        "description": "Chuyên môn trong việc thành lập doanh nghiệp, quản trị và tuân thủ.",
+        "additionalInfo": "Đội ngũ luật sư của chúng tôi cung cấp các giải pháp phù hợp cho cả doanh nghiệp khởi nghiệp và đã thành lập.",
+        "slug": "luat-doanh-nghiep",
+        "icon": "corporateLawIcon"
+      },
+      {
+        "name": "Luật Gia Đình",
+        "description": "Hướng dẫn pháp lý đầy cảm thông cho các vấn đề gia đình.",
+        "additionalInfo": "Từ ly hôn đến quyền nuôi con, luật sư của chúng tôi ưu tiên sự an toàn của gia đình bạn.",
+        "slug": "luat-gia-dinh",
+        "icon": "familyLawIcon"
+      },
+      {
+        "name": "Luật Bất Động Sản",
+        "description": "Giải quyết các giao dịch và tranh chấp tài sản phức tạp.",
+        "additionalInfo": "Chúng tôi hỗ trợ cả vấn đề bất động sản dân dụng và thương mại.",
+        "slug": "luat-bat-dong-san",
+        "icon": "realEstateIcon"
+      }
+    ],
+    "learnMore": "Tìm Hiểu Thêm",
+    "testimonialsTitle": "Khách Hàng Nói Gì Về Chúng Tôi",
+    "testimonials": [
+      {
+        "quote": "Đội ngũ rất tuyệt vời trong việc xử lý trường hợp của tôi. Rất đáng khuyên!",
+        "author": "Nguyễn Văn A",
+        "position": "Chủ Doanh Nghiệp"
+      },
+      {
+        "quote": "Chuyên môn của họ trong luật gia đình đã giúp tôi vượt qua một tình huống khó khăn.",
+        "author": "Trần Thị B",
+        "position": "Khách Hàng"
+      }
+    ],
+    "faqTitle": "Câu Hỏi Thường Gặp",
+    "faqs": [
+      {
+        "question": "Tôi nên mong đợi điều gì trong cuộc tư vấn đầu tiên?",
+        "answer": "Chúng tôi sẽ thảo luận về nhu cầu pháp lý của bạn, phác thảo các chiến lược tiềm năng và cung cấp tổng quan về phí của chúng tôi."
+      },
+      {
+        "question": "Bạn tính phí cho các dịch vụ của mình như thế nào?",
+        "answer": "Chúng tôi cung cấp nhiều tùy chọn tính phí, bao gồm phí cố định và theo giờ, tùy thuộc vào loại vụ án."
+      }
+    ],
+    "ctaTitle": "Sẵn Sàng Làm Việc Với Chúng Tôi?",
+    "ctaDescription": "Liên hệ với văn phòng của chúng tôi hôm nay để được tư vấn và xem cách chúng tôi có thể hỗ trợ bạn.",
+    "ctaButtonText": "Liên Hệ Ngay"
+  },
+    "cta": {
+      "buttonText": "Tìm hiểu thêm",
+      "buttonLink": "https://google.com"
+    }
+  }
+  

@@ -1,16 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Georgia';
+  src: url('./assets/fonts/georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
   background-color: #f0f0f0; /* Softer white/gray */
   color: #1c1c1c; /* Dark gray for better readability */
-  font-family: 'Be Vietnam Pro', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   font-size: 1rem;
 }
 
 h1, h2, h3 {
-  font-family: 'Be Vietnam Pro', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   color: #1a1a1a; /* Slightly darker color for headings */
 }
 
@@ -34,4 +41,51 @@ h1, h2, h3 {
 
 .border-accent {
   border-color: #2f2f2f;
+}
+
+/* index.css or global CSS file */
+
+/* Scroll indicator bounce animation */
+@keyframes bounce-slow {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* Animation for the scroll indicator appearing and falling */
+.scroll-indicator {
+  animation: fadeIn 1.5s ease-in-out forwards, dropDown 1.5s ease-in-out forwards;
+}
+
+@keyframes dropDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
